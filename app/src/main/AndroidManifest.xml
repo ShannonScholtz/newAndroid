@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sscholtz.motorental" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".main_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".motorcycle_rental"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home_page"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name=".about_us"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name=".contact_us"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".customer_details"
+            android:label="@string/title_activity_customer" >
+        </activity>
+        <activity
+            android:name=".successful_rental"
+            android:label="@string/title_activity_successful_rental" >
+        </activity>
+        <activity
+            android:name=".view"
+            android:label="@string/title_activity_view" >
+        </activity>
+    </application>
+
+</manifest>
